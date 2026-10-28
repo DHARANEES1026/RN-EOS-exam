@@ -1,0 +1,60 @@
+
+export const initialTransactions = [
+  {
+    id: '1',
+    title: 'Monthly Salary',
+    category: 'Salary',
+    type: 'income',
+    amount: 45000,
+    date: '2026-10-01',
+    note: 'Monthly salary',
+  },
+  {
+    id: '2',
+    title: 'Grocery Shopping',
+    category: 'Food',
+    type: 'expense',
+    amount: 1850,
+    date: '2026-10-05',
+    note: 'Groceries and household items',
+  },
+  {
+    id: '3',
+    title: 'Bus Pass',
+    category: 'Transport',
+    type: 'expense',
+    amount: 750,
+    date: '2026-10-07',
+    note: 'Monthly bus pass',
+  },
+  {
+    id: '4',
+    title: 'Electricity Bill',
+    category: 'Bills',
+    type: 'expense',
+    amount: 1250,
+    date: '2026-10-10',
+    note: 'Electricity payment',
+  },
+  {
+    id: '5',
+    title: 'Freelance Work',
+    category: 'Freelance',
+    type: 'income',
+    amount: 5000,
+    date: '2026-10-12',
+    note: 'Freelance project',
+  },
+];
+
+export const categories = [
+  { name: 'Food', icon: 'fast-food', color: '#F59E0B' },
+  { name: 'Transport', icon: 'car', color: '#3B82F6' },
+  { name: 'Bills', icon: 'receipt', color: '#8B5CF6' },
+  { name: 'Shopping', icon: 'bag', color: '#EC4899' },
+  { name: 'Health', icon: 'heart', color: '#EF4444' },
+  { name: 'Entertainment', icon: 'film', color: '#14B8A6' },
+  { name: 'Salary', icon: 'wallet', color: '#22C55E' },
+  { name: 'Freelance', icon: 'laptop', color: '#6366F1' },
+  { name: 'Other', icon: 'ellipsis-horizontal', color: '#64748B' },
+];
